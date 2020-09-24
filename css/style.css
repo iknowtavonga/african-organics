@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    border-bottom: 1.5px solid #7A0030;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1.5px solid #7A0030;
+    padding: 20px;
+}
+
+#logo{
+    width: 70%;
+    object-fit: cover;
+}
+
+.header-announcement{
+    letter-spacing: 0.4em;
+    padding: 3px;
+    border-bottom: 1.5px solid #7A0030;
+}
+
+.header-right nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a:hover{
+    background-color: #7A0030;
+}
