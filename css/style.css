@@ -15,7 +15,7 @@ header{
     align-items: center;
     justify-content: center;
     border-right: 1.5px solid #7A0030;
-    padding: 20px;
+   
 }
 
 #logo{
@@ -31,12 +31,20 @@ header{
 
 .header-right nav{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     align-items: center;
     text-align: center;
-    padding: 20px 0;
 }
 
-nav a:hover{
-    background-color: #7A0030;
+.header-right nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+    transition-property: background, color;
+    transition-duration: 0.5s;
+}
+
+.header-right nav a:hover{
+    background: #7A0030;
+    color: white;
 }
