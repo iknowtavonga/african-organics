@@ -7,6 +7,16 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.grey-text{
+    color: rgba(92, 92, 92, 0.76);
+}
+
+/* Header Section */
 header{
     display: grid;
     grid-template-columns: 15% 85%;
@@ -82,4 +92,10 @@ header{
 
 .fa-shopping-cart{
     padding: 0 10px;
+}
+
+/* Section Heading */
+.section-heading{
+    padding: 40px 0 30px 0;
+    border-bottom: 1px solid #7A0030;
 }
