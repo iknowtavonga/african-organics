@@ -13,7 +13,7 @@
 }
 
 .grey-text{
-    color: rgba(92, 92, 92, 0.76);
+    color: #585858;
 }
 
 /* Header Section */
@@ -98,4 +98,43 @@ header{
 .section-heading{
     padding: 40px 0 30px 0;
     border-bottom: 1px solid #7A0030;
+}
+
+/* Product Section */
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.price{
+    color: #7A0030;
+    letter-spacing: 1.75px;
+    margin: 15px 0 0 0;
+}
+
+.product-heading{
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.25;
+    padding: 10px 0;
+}
+
+.product-description{
+    line-height: 1.5;
+    letter-spacing: 0.75px;
+}
+
+.product-benefit{
+    margin: 15px 30px;
+}
+
+.product-benefit li{
+    padding: 7.5px 0;
+    letter-spacing: 0.75px;
+}
+
+.product-image{
+    width: 80%;
+    justify-self: center;
 }
